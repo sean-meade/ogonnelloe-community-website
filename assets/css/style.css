@@ -1,3 +1,4 @@
+/* Font from: https://www.fontzip.com/celtic */
 @font-face {
     font-family: Celtic;
     src: url('../fonts/Celtic.ttf')  format('truetype');
@@ -34,4 +35,29 @@ header a, a:visited, a:hover, a:active {
     float: left;
     font-family: Celtic;
     font-size: 60px;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 10px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #000;
+}
+
+.active {
+    border-bottom: 1px solid #000;
 }
