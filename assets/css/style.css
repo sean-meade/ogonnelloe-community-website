@@ -1,15 +1,25 @@
 @font-face {
     font-family: Celtic;
     src: url('../fonts/Celtic.ttf')  format('truetype');
-  }
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
 
 body {
     padding: 0;
     margin: 0;
+    border: none;
 }
+
+/* heading and logo */
 
 header {
     background-color: rgb(255, 193, 37);
+    padding: 10px;
 }
 
 header a {
@@ -20,9 +30,8 @@ header a, a:visited, a:hover, a:active {
     color: inherit;
 }
 
-header h1 {
+#logo {
+    float: left;
     font-family: Celtic;
     font-size: 60px;
-    margin: 0;
-    padding: 10px; 
 }
