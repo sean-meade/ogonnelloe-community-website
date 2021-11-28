@@ -20,7 +20,8 @@ body {
 
 header {
     background-color: rgb(255, 193, 37);
-    padding: 10px;
+    display: block;
+    overflow: auto;
 }
 
 header a {
@@ -35,9 +36,14 @@ header a, a:visited, a:hover, a:active {
     float: left;
     font-family: Celtic;
     font-size: 60px;
+    margin-left: 20px;
 }
 
 /* navigation links */
+
+nav {
+    float: right;
+}
 
 #menu {
     font-size: 110%;
@@ -45,9 +51,9 @@ header a, a:visited, a:hover, a:active {
 }
 
 #menu li {
-    float: right;
     list-style-type: none;
     margin-right: 10px;
+    display: inline-block;
 }
 
 #menu, #logo {
@@ -60,4 +66,39 @@ header a, a:visited, a:hover, a:active {
 
 .active {
     border-bottom: 1px solid #000;
+}
+
+/* hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("/assets/images/ogonnelloe-hero-image.jpg") no-repeat center center;
+}
+
+/* History on home page */
+
+.article-img {
+    margin: 50px;
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    nav {
+        clear: left;
+        width: 100%;
+    }
+
+    #menu {
+        width: 300px;
+        margin: auto;
+    }
+
 }
