@@ -24,7 +24,7 @@ header {
     overflow: auto;
 }
 
-header a {
+header a, footer a {
     text-decoration: none;
 }
 
@@ -105,6 +105,37 @@ nav {
 .article-text p {
     text-align: justify;
 }
+
+/* Footer */
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 193, 37);
+    height: 75px;
+}
+
+#footer-nav {
+    line-height: 75px;
+    margin-left: 40px;
+}
+
+#footer-nav li {
+    list-style-type: none;
+    margin-right: 10px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+footer a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+#footer-nav span {
+    padding: 0 10px;
+}
+
+
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
