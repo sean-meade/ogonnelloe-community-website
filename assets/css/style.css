@@ -7,6 +7,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -167,6 +168,42 @@ footer a, a:visited, a:hover, a:active {
     padding-top: 10px;
 }
 
+/* Contact Form */
+
+#body-for-contact {
+    width: 100%;
+    height: 100%;
+}
+
+#contact-page {
+    width: 100vw;
+}
+
+#contact-form {
+    width: 40%;
+    margin: auto;
+    padding: auto;
+}
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form */
+#contact-form input, #contact-form select, #contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  /* for tablet screen sizes */
+@media screen and (max-width: 768px) {
+    #contact-form {
+        width: 80%;
+    }    
+}
+
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
@@ -193,22 +230,4 @@ footer a, a:visited, a:hover, a:active {
         padding: 0 40px;
     }
 
-}
-
-/* Contact Form */
-
-#body-for-contact {
-    width: 100%;
-    height: 100%;
-}
-
-#contact-page {
-    width: 100vw;
-}
-
-#contact-form {
-    width: 370px;
-    height: 370px;
-    margin: auto;
-    padding: auto;
 }
