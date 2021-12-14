@@ -7,13 +7,11 @@
 * {
     padding: 0;
     margin: 0;
-    border: none;
 }
 
 body {
     padding: 0;
     margin: 0;
-    border: none;
 }
 
 /* heading and logo */
@@ -137,7 +135,7 @@ nav {
 /* Used to center and have on different rows: https://stackoverflow.com/questions/42753253/vertically-center-multiple-lines-of-flex-items */
 #footer-wrapper {
     width: 100%;
-    height: 100%;
+    height: 15vh;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 193, 37);
     display: flex;
@@ -194,4 +192,21 @@ footer a, a:visited, a:hover, a:active {
         padding: 0 40px;
     }
 
+}
+
+/* Contact Form */
+
+#body-for-contact {
+    width: 100%;
+    height: 100%;
+}
+
+#contact-page {
+    width: 100vw;
+}
+
+#contact-form {
+    width: 370px;
+    height: 370px;
+    margin: auto;
 }
