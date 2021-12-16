@@ -291,7 +291,11 @@ tr td:first-child {
         align-self: flex-start;
         font-family: Celtic;
         font-size: 55px;
-        margin-left: 20px;
+        margin: 5px 0 0 0;
+    }
+
+    #menu li {
+        font-size: 70%;
     }
 
     #menu, #logo {
