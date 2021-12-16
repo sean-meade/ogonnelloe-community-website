@@ -194,7 +194,7 @@ footer a, a:visited, a:hover, a:active {
 
 
 
-#history-page article {
+#history-page section article {
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -206,8 +206,12 @@ footer a, a:visited, a:hover, a:active {
     margin-right: 10px;
 }
 
-#history-page article p {
+#history-page article div {
     width: 40%;
+}
+
+#history-page article div h3 {
+    text-decoration: underline;
 }
 
 #history-page hr {
