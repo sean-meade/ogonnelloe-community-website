@@ -37,3 +37,13 @@ body {
 .item h3 {
     width: 100%;
 }
+
+table {
+    text-align: left;
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+tr td:first-child {
+    padding-right: 30px;
+}
