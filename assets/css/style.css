@@ -19,8 +19,8 @@ body {
 
 header {
     background-color: rgb(255, 193, 37);
-    display: block;
-    overflow: auto;
+    display: flex;
+    justify-content: space-between
 }
 
 header a, footer a {
@@ -32,17 +32,13 @@ header a, a:visited, a:hover, a:active {
 }
 
 #logo {
-    float: left;
+    align-self: flex-start;
     font-family: Celtic;
     font-size: 60px;
     margin-left: 20px;
 }
 
 /* navigation links */
-
-nav {
-    float: right;
-}
 
 #menu {
     font-size: 110%;
@@ -225,37 +221,87 @@ footer a, a:visited, a:hover, a:active {
     margin: 15px 0 0 15px;
 }
 
+/* Groups page */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#container section {
+    background-color: chartreuse;
+    border: 3px solid black;
+    width: 80vw;
+}
+
+#container section div, #container section h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    background-color: red;
+    border: 3px solid black;
+    width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item h3 {
+    width: 100%;
+}
+
+table {
+    text-align: left;
+    margin-left: 10px;
+	margin-right: auto;
+}
+
+tr td:first-child {
+    padding-right: 30px;
+}
+
   /* for tablet screen sizes */
 @media screen and (max-width: 768px) {
     #contact-form {
         width: 80%;
-    }    
+    }
+
+    header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav {
+        padding-left: 15px;
+    }
+
+    #logo {
+        align-self: flex-start;
+        font-family: Celtic;
+        font-size: 55px;
+        margin-left: 20px;
+    }
+
+    #menu, #logo {
+        line-height: 50px;
+    }
 }
 
 /* For medium screen sizes from 950px wide and down */
-@media screen and (max-width: 950px) {
+/* @media screen and (max-width: 600px) {
 
-    nav {
-        clear: left;
-        width: 100%;
-    }
+    
 
-    #menu {
-        width: 300px;
-        margin: auto;
-    }
-
-    #history-blurb {
-        flex-wrap: wrap;
-    }
-
-    .article-img {
-        margin: 40px auto;
-    }
-
-    .article-text {
-        margin: auto;
-        padding: 0 40px;
-    }
-
-}
+} */
