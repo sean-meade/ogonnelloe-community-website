@@ -172,37 +172,11 @@ footer a, a:visited, a:hover, a:active {
     resize: vertical;
 }
 
+/* Events and News Page */
 
-
-#history-page section article {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-}
-
-#history-page article img {
-    width: 20%;
-    border-radius: 10px;
-    margin-right: 10px;
-}
-
-#history-page article div {
-    width: 40%;
-}
-
-#history-page article div h3 {
-    text-decoration: underline;
-}
-
-#history-page hr {
-    margin: auto;
+.item-for-whole-row {
     width: 80%;
-}
-
-#history-page h1 {
-    font-size: 150%;
-    text-decoration: underline;
-    margin: 15px 0 0 15px;
+    height: 210px;
 }
 
 /* Groups page */
@@ -239,7 +213,6 @@ body {
     background-color: red;
     border: 3px solid black;
     width: 280px;
-
 }
 
 .item ul {
