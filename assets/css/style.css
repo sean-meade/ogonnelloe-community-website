@@ -113,6 +113,25 @@ header a, a:visited, a:hover, a:active {
     cursor: pointer;
 }
 
+/* Google Maps */
+
+/* Was getting issues in validator for inline width for iframe
+    Found this solution: https://stackoverflow.com/questions/325273/make-iframe-to-fit-100-of-containers-remaining-height
+*/
+
+#map-container {
+    display: flex; 
+    width: 100%; 
+    height: 100%; 
+    flex-direction: column; 
+    overflow: hidden;
+}
+
+#google-maps-homepage {
+    margin: 0; 
+    padding: 0;
+}
+
 /* Footer */
 
 /* Used to center and have on different rows: https://stackoverflow.com/questions/42753253/vertically-center-multiple-lines-of-flex-items */
@@ -155,26 +174,34 @@ footer a, a:visited, a:hover, a:active {
 
 /* Contact Form */
 
-#contact-page {
-    width: 100vw;
-}
-
 #contact-form {
+    display: flex;
+    flex-direction: column;
     width: 40%;
     margin: auto;
-    padding: auto;
+    padding: 20px 0;
+}
+
+#contact-form button {
+    font-size: large;
+    border-radius: 5px;
+    background-color: rgb(255, 193, 37);
+    padding: 5px;
+    float: right;
+}
+
+#contact-form button:hover {
+    cursor: pointer;
 }
 
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form */
 #contact-form input, #contact-form select, #contact-form textarea {
     width: 100%;
-    padding: 12px;
+    padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
 }
 
 /* Events and News Page */
