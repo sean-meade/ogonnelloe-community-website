@@ -78,29 +78,13 @@ header a, a:visited, a:hover, a:active {
     background: url("/assets/images/ogonnelloe-hero-image.jpg") no-repeat center center;
 }
 
-/* History on home page */
+/* Article in Homepage */
 
-#history-blurb {
-    display: flex;
+#article-in-homepage {
+    justify-content: space-around;
 }
 
-.article-img {
-    margin: 50px 50px 50px 100px;
-}
-
-.article-text {
-    margin: 50px 100px 50px 0;
-}
-
-.article-text h1 {
-    font-size: 150%;
-    text-decoration: underline;
-    margin-bottom: 10px;
-}
-
-.article-text p {
-    text-align: justify;
-}
+/* Newsletter */
 
 #newsletter-signup {
     text-align: center;
@@ -234,19 +218,19 @@ body {
     margin: 0;
 }
 
-#container {
+.container {
     display: flex;
     width: 100%;
     justify-content: center;
 }
 
-#container section {
+.center-of-container {
     background-color: chartreuse;
     border: 3px solid black;
     width: 80vw;
 }
 
-#container section div, #container section h1 {
+.container-section {
     display: flex;
     justify-content: center;
 }
@@ -254,15 +238,15 @@ body {
 .item {
     background-color: red;
     border: 3px solid black;
-    width: 30vw;
-    display: flex;
-    flex-wrap: wrap;
+    width: 280px;
+
 }
 
-.item h3 {
-    width: 100%;
+.item ul {
+    list-style-position: inside;
 }
 
+/* https://gist.github.com/danielpietzsch/370754 */
 table {
     text-align: left;
     margin-left: 10px;
@@ -314,6 +298,10 @@ tr td:first-child {
     header {
         flex-wrap: wrap;
         justify-content: center;
+    }
+
+    .container-section {
+        flex-wrap: wrap;
     }
     
 }
