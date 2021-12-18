@@ -188,10 +188,7 @@ footer a, a:visited, a:hover, a:active {
 
 /* Footer in contact page */
 
-.contact-footer {
-    position: fixed;
-    bottom: 0;
-}
+
 
 /* Contact Form */
 
@@ -329,6 +326,11 @@ tr td:first-child {
     #menu, #logo {
         line-height: 40px;
         margin: 10px 0 0 0;
+    }
+
+    .contact-footer {
+        position: fixed;
+        bottom: 0;
     }
 }
 
