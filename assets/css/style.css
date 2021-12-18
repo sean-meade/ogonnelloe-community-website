@@ -68,21 +68,34 @@ header a, a:visited, a:hover, a:active {
 /* hero image */
 
 #hero-outer {
-    height: 600px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
+    margin-bottom: 40px;
 }
 
 #hero-image {
-    height: 600px;
+    height: 400px;
     width: 100%;
-    background: url("/assets/images/ogonnelloe-hero-image.jpg") no-repeat center center;
+    background: url("/assets/images/24622379731_4d6f1fb37a_o.jpg") no-repeat center;
+    background-size: cover;
 }
 
 /* Article in Homepage */
 
 #article-in-homepage {
     justify-content: space-around;
+}
+
+#intro-image {
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#intro a {
+    text-decoration: none;
 }
 
 /* Newsletter */
@@ -260,6 +273,22 @@ tr td:first-child {
     padding-right: 30px;
 }
 
+.group-icon {
+    margin: auto;
+    padding: 10px;
+    height: 135px;
+}
+
+.group-list {
+    list-style: none;
+    margin: auto;
+    padding: 10px;
+}
+
+.group-header {
+    margin: 15px 0;
+}
+
 @media screen and (max-width: 410px) {
     #logo {
         font-size: 55px;
@@ -284,6 +313,14 @@ tr td:first-child {
 @media screen and (max-width: 688px) {
     #menu {
         line-height: 40px;
+    }
+
+    #hero-outer {
+        height: 300px;
+    }
+
+    #hero-image {
+        height: 300px;
     }
 
 }
