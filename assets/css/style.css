@@ -14,6 +14,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: #F7F7FF;
+    position: relative;
 }
 
 /* heading and logo */
@@ -77,7 +78,7 @@ header a, a:visited, a:hover, a:active {
 #hero-image {
     height: 400px;
     width: 100%;
-    background: url("/assets/images/24622379731_4d6f1fb37a_o.jpg") no-repeat center;
+    background: url("assets/images/24622379731_4d6f1fb37a_o.jpg") no-repeat center;
     background-size: cover;
 }
 
@@ -185,7 +186,21 @@ footer a, a:visited, a:hover, a:active {
     border-bottom: 1px solid #000;
 }
 
+/* Footer in contact page */
+
+.contact-footer {
+    position: fixed;
+    bottom: 0;
+}
+
 /* Contact Form */
+
+#contact-header {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
 
 #contact-form {
     display: flex;
