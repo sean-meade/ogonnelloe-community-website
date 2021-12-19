@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Patua+One&display=swap');
+
 /* Font from: https://www.fontzip.com/celtic */
 @font-face {
     font-family: Celtic;
@@ -15,6 +17,11 @@ body {
     margin: 0;
     background-color: #F7F7FF;
     position: relative;
+    font-family: 'Lora', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Patua One', cursive;
 }
 
 /* heading and logo */
