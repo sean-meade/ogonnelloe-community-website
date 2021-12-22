@@ -200,14 +200,10 @@ footer a, a:visited, a:hover, a:active {
 /* Contact Form */
 
 #contact-page-container {
-    height: 100vh;
+    height: 85vh;
     width: 100vw;
     margin: auto;
     display: flex;
-}
-
-#contact-header {
-    
 }
 
 #contact-form {
@@ -230,7 +226,7 @@ footer a, a:visited, a:hover, a:active {
 }
 
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form */
-#contact-form input, #contact-form select, #contact-form textarea {
+#contact-form input, #contact-form select, #contact-form textarea, #contact-form h2 {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
@@ -280,6 +276,29 @@ body {
 
 .main-info {
     width: 50%;
+}
+
+.updates-video-heading {
+    display: flex;
+}
+
+.news-article {
+    text-align: center;
+}
+
+.news-paragraph {
+    padding: 4px 8px;
+    text-align: justify;
+}
+
+.news-heading {
+    display: flex;
+}
+
+.video {
+    padding: 0;
+    margin: 0;
+    height: 250px;
 }
 
 .item {
