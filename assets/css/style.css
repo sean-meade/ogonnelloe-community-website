@@ -144,49 +144,97 @@ header a, a:visited, a:hover, a:active {
     padding: 0;
 }
 
-/* Footer */
-
-/* Used to center and have on different rows: https://stackoverflow.com/questions/42753253/vertically-center-multiple-lines-of-flex-items */
-#footer-wrapper {
-    width: 100%;
-    height: 85px;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 193, 37);
+/* Flex box set up */
+.container {
     display: flex;
     flex-direction: column;
+    background-color:#D2D5DD;
+}
+
+.center-of-container {
+    background-color:#D2D5DD;
+    width: 75vw;
+    border-radius: 15px;
+    align-self: center;
+}
+
+.container-for-section {
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    align-content: center;
 }
 
-#footer-nav li {
-    list-style-type: none;
-    display: inline;
+/* Clubs page */
+
+.main-info-left {
+    width: 50%;
 }
 
-footer a, a:visited, a:hover, a:active {
+.main-info-right {
+    width: 50%;
+}
+
+.club-contact-list {
+    list-style: none;
+}
+
+.club-contact-list li i, .social-media {
+    color: rgb(255, 193, 37);
+}
+
+.club-contact-list li a {
+    text-decoration: none;
     color: inherit;
 }
 
-#footer-nav span {
-    padding: 0 5px;
+/* updates */
+
+.updates-article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#footer-wrapper p {
-    margin: 3px auto;
+.news-paragraph {
+    padding: 4px 8px 8px 8px;
+    text-align: justify;
 }
 
-#footer-nav {
-    padding-top: 10px;
+.video {
+    padding: 0 0 10px 0;
+    margin: 0;
+    height: 250px;
 }
 
-.active {
-    border-bottom: 1px solid #000;
+.flex-item {
+    display: flex;
+    background-color: #D2D5DD;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
 }
 
-/* Footer in contact page */
+.hr-clubs {
+    margin-top: 15px;
+}
 
+tr td:first-child {
+    padding-right: 30px;
+}
 
+.team-crest {
+    margin: auto;
+    padding: 10px;
+    height: 135px;
+}
+
+.team-header {
+    margin: 15px 0;
+}
+
+.social-title {
+    color: #000;
+}
 
 /* Contact Form */
 
@@ -224,111 +272,43 @@ footer a, a:visited, a:hover, a:active {
     margin-bottom: 16px;
 }
 
-/* Events and News Page */
+/* Footer */
 
-.item-for-whole-row {
-    width: 80%;
-    height: 210px;
-}
-
-/* Groups page */
-
-.social-title {
-    color: #000;
-}
-
-.fas, .social-media {
+/* Used to center and have on different rows: https://stackoverflow.com/questions/42753253/vertically-center-multiple-lines-of-flex-items */
+#footer-wrapper {
+    width: 100%;
+    height: 85px;
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 193, 37);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
-.group-list li a {
-    text-decoration: none;
+#footer-nav li {
+    list-style-type: none;
+    display: inline;
+}
+
+footer a, a:visited, a:hover, a:active {
     color: inherit;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    background-color:#D2D5DD;
+#footer-nav span {
+    padding: 0 5px;
 }
 
-.center-of-container {
-    background-color:#D2D5DD;
-    width: 75vw;
-    border-radius: 15px;
-    align-self: center;
+#footer-wrapper p {
+    margin: 3px auto;
 }
 
-.container-section {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+#footer-nav {
+    padding-top: 10px;
 }
 
-.main-info-left {
-    width: 50%;
-}
-
-.main-info-right {
-    width: 50%;
-}
-
-.updates-article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.news-article {
-    text-align: center;
-}
-
-.news-paragraph {
-    padding: 4px 8px 8px 8px;
-    text-align: justify;
-}
-
-.news-heading {
-    display: flex;
-}
-
-.video {
-    padding: 0 0 10px 0;
-    margin: 0;
-    height: 250px;
-}
-
-.item {
-    display: flex;
-    background-color: #D2D5DD;
-    padding: 5px;
-    flex-direction: column;
-    justify-content: center;
-}
-
-
-
-.hr-clubs {
-    margin-top: 15px;
-}
-
-tr td:first-child {
-    padding-right: 30px;
-}
-
-.group-icon {
-    margin: auto;
-    padding: 10px;
-    height: 135px;
-}
-
-.group-list {
-    list-style: none;
-}
-
-.group-header {
-    margin: 15px 0;
-}
+/* media queries */
 
 @media screen and (max-width: 410px) {
     #logo {
@@ -431,7 +411,7 @@ tr td:first-child {
         justify-content: center;
     }
 
-    .container-section {
+    .container-for-section {
         flex-wrap: wrap;
     }
     
