@@ -89,19 +89,6 @@ header a, a:visited, a:hover, a:active {
     background-size: cover;
 }
 
-/* Article in Homepage */
-
-#article-in-homepage {
-    justify-content: space-around;
-}
-
-#intro-image {
-    height: 200px;
-    width: 200px;
-    margin: 0 auto;
-    border-radius: 5px;
-}
-
 #intro a {
     text-decoration: none;
 }
@@ -204,8 +191,6 @@ footer a, a:visited, a:hover, a:active {
 /* Contact Form */
 
 #contact-page-container {
-    height: 85vh;
-    width: 100vw;
     margin: auto;
     display: flex;
 }
@@ -213,7 +198,7 @@ footer a, a:visited, a:hover, a:active {
 #contact-form {
     display: block;
     flex-direction: column;
-    margin: auto;
+    margin: 15px auto;
     width: 80vw;
 }
 
@@ -222,7 +207,7 @@ footer a, a:visited, a:hover, a:active {
     border-radius: 5px;
     background-color: rgb(255, 193, 37);
     padding: 5px;
-    float: right;
+    width: 100%;
 }
 
 #contact-form button:hover {
@@ -232,7 +217,7 @@ footer a, a:visited, a:hover, a:active {
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form */
 #contact-form input, #contact-form select, #contact-form textarea, #contact-form h2 {
     width: 100%;
-    padding: 8px;
+    padding: 9px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-top: 6px;
@@ -269,7 +254,7 @@ footer a, a:visited, a:hover, a:active {
 
 .center-of-container {
     background-color:#D2D5DD;
-    width: 70vw;
+    width: 75vw;
     border-radius: 15px;
     align-self: center;
 }
@@ -380,8 +365,32 @@ tr td:first-child {
     }
 }
 
-@media screen and (max-width: 492px) {
-    
+@media screen and (max-width: 400px) and (min-height: 800px) {
+    #contact-form {
+        height: 75vh;
+    }
+}
+
+@media screen and (min-width: 1000px) and (min-height: 750px){
+    #contact-form {
+        height: 77vh;
+    }
+}
+
+/* iPad Pro and similar */
+@media screen and (min-width: 1000px) and (min-height: 920px) {
+    #contact-form {
+        height: 80vh;
+        width: 50vw;
+    }
+
+    header {
+        height: 8vh;
+    }
+
+    footer {
+        height: 12vh;
+    }
 }    
 
 @media screen and (max-width: 688px) {
