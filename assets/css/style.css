@@ -207,7 +207,6 @@ a:active {
 
 /* https://stackoverflow.com/questions/2573544/how-can-i-select-all-children-of-an-element-except-the-last-child/2573566 */
 .flex-item {
-    width: 50%;
     margin: auto;
     display: flex;
     padding: 1em;
@@ -287,15 +286,15 @@ thead {
     display: block;
     flex-direction: column;
     margin: auto;
-    width: 80vw;
+    width: 80%;
 }
 
 #contact-form button {
-    font-size: large;
+    font-size: 1.2rem;
     border-radius: 5px;
     background-color: rgb(255, 193, 37);
     padding: 10px;
-    margin: 0.5em 0 1em 0;
+    margin: 0.5rem 0 1rem 0;
     float: right;
     border: none;
 }
@@ -316,16 +315,12 @@ thead {
     margin-bottom: 16px;
 }
 
-#contact-form h2 {
-    padding: 1em 0;
-}
-
 /* Footer */
 
 /* Used to center and have on different rows: https://stackoverflow.com/questions/42753253/vertically-center-multiple-lines-of-flex-items */
 #footer-wrapper {
     width: 100%;
-    height: 6em;
+    height: 6rem;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 193, 37);
     display: flex;
