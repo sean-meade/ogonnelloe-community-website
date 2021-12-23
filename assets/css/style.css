@@ -28,40 +28,41 @@ h1, h2, h3, h4, h5, h6 {
 header {
     background-color: rgb(255, 193, 37);
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    line-height: 4.68rem;
 }
 
-header a, footer a {
+header a, 
+footer a {
     text-decoration: none;
 }
 
-header a, a:visited, a:hover, a:active {
+header a, 
+a:visited, 
+a:hover, 
+a:active {
     color: inherit;
 }
 
 #logo {
     align-self: flex-start;
     font-family: Celtic;
-    font-size: 60px;
-    margin-left: 20px;
+    font-size: 3.75rem;
+    padding-left: 1.25rem;
 }
 
 /* navigation links */
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
-    margin-right: 20px;
+    letter-spacing: 0.25rem;
+    padding-right: 20px;
 }
 
 #menu li {
     list-style-type: none;
-    margin-right: 10px;
+    padding-right: 10px;
     display: inline-block;
-}
-
-#menu, #logo {
-    line-height: 75px;
 }
 
 #menu a:hover {
@@ -75,14 +76,14 @@ header a, a:visited, a:hover, a:active {
 /* hero image */
 
 #hero-outer {
-    height: 400px;
-    width: 100%;
+    min-height: 25rem;
+    max-width: 100%;
     overflow: hidden;
 }
 
 #hero-image {
-    height: 400px;
-    width: 100%;
+    min-height: 25rem;
+    max-width: 100%;
     background: url("../images/hero.jpg") no-repeat center;
     background-size: cover;
 }
@@ -99,46 +100,32 @@ header a, a:visited, a:hover, a:active {
     justify-content: center;
 }
 
-.newsletter-div h1 {
+.heading-1-body {
+    font-size: 2.5rem;
     text-align: center;
-    padding-top: 0.5em;
-}
-
-.newsletter-div p,
-.newsletter-div form {
-    padding: 1em;
-    text-align: center;
-    margin: auto;
-}
-
-#intro-heading {
-    font-size: 40px;
+    padding: 2rem 0;
 }
 
 #newsletter-signup {
+    padding: 2rem;
     text-align: center;
-    padding-bottom: 20px;
-}
-
-#newsletter-signup label {
-    font-size: larger;
+    margin: auto;
 }
 
 #newsletter-signup input {
     padding: 0.375rem 0.75rem;
     border-radius: 0.25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
     margin: 0;
     font-family: inherit;
-    font-size: x-large;
+    font-size: 1.5rem;
 }
 
 #newsletter-signup button {
-    font-size: x-large;
+    font-size: 1.5rem;
     border-radius: 5px;
     border: none;
     background-color: rgb(255, 193, 37);
-    padding: 10px;
+    padding: 0.6rem;
     margin: 0.5em;
 }
 
@@ -155,7 +142,6 @@ header a, a:visited, a:hover, a:active {
 #map-container {
     display: flex; 
     width: 100%; 
-    height: 100%; 
     flex-direction: column; 
     overflow: hidden;
 }
@@ -163,7 +149,7 @@ header a, a:visited, a:hover, a:active {
 #google-maps-homepage {
     margin: 0; 
     padding: 0;
-    min-height: 25em;
+    min-height: 25rem;
     border: none;
 }
 
@@ -175,7 +161,6 @@ header a, a:visited, a:hover, a:active {
 
 .center-of-container {
     width: 100%;
-    border-radius: 15px;
     align-self: center;
 }
 
@@ -187,13 +172,10 @@ header a, a:visited, a:hover, a:active {
 
 /* Clubs page */
 
-#training-title {
-    padding-top: 1em;
-}
-
-.training-card > * {
-    padding: 1em;
-    
+.heading-2-body {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
 }
 
 .main-info-left {
@@ -214,7 +196,7 @@ header a, a:visited, a:hover, a:active {
 }
 
 .club-contact-list li {
-    padding: 0.5em 0;
+    padding: 0.4em 0;
 }
 
 .club-contact-list li a {
@@ -222,8 +204,23 @@ header a, a:visited, a:hover, a:active {
     color: inherit;
 }
 
-tr td:first-child {
-    padding-right: 30px;
+/* https://stackoverflow.com/questions/2573544/how-can-i-select-all-children-of-an-element-except-the-last-child/2573566 */
+.flex-item {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    padding: 1em;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+tbody tr:first-child {
+    text-decoration: underline;
+}
+
+tbody tr:not(:first-of-type) td:first-child {
+    padding-right: 1.8rem;
     font-style: italic;
 }
 
@@ -233,20 +230,8 @@ thead {
 
 .team-crest {
     margin: auto;
-    padding: 10px;
-    height: 135px;
 }
 
-.team-header {
-    padding: 1.2em;
-}
-
-.flex-item {
-    display: flex;
-    padding: 1em;
-    flex-direction: column;
-    justify-content: center;
-}
 
 .newsletter-div-clubs-page {
     background-color: #D2D5DD;
@@ -372,7 +357,10 @@ thead {
     display: inline;
 }
 
-footer a, a:visited, a:hover, a:active {
+footer a, 
+a:visited, 
+a:hover, 
+a:active {
     color: inherit;
 }
 
@@ -390,7 +378,7 @@ footer a, a:visited, a:hover, a:active {
 
 /* media queries */
 
-@media screen and (max-width: 410px) {
+/* @media screen and (max-width: 410px) {
     #logo {
         font-size: 55px;
     }
@@ -441,10 +429,10 @@ footer a, a:visited, a:hover, a:active {
     #contact-form {
         height: 77vh;
     }
-}
+} */
 
 /* iPad Pro and similar */
-@media screen and (min-width: 1000px) and (min-height: 920px) {
+/* @media screen and (min-width: 1000px) and (min-height: 920px) {
     #contact-form {
         height: 81vh;
         width: 50vw;
@@ -484,10 +472,10 @@ footer a, a:visited, a:hover, a:active {
         padding-bottom: 1em;
     }
 
-}
+} */
 
   /* for tablet screen sizes */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     #contact-form {
         width: 80%;
     }
@@ -505,4 +493,4 @@ footer a, a:visited, a:hover, a:active {
         flex-wrap: wrap;
     }
     
-}
+} */
