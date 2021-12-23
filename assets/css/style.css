@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300;1,700&family=Passion+One&display=swap');
 
 /* Font from: https://www.fontzip.com/celtic */
 @font-face {
@@ -15,7 +15,6 @@
 body {
     padding: 0;
     margin: 0;
-    background-color:#D2D5DD;
     position: relative;
     font-family: 'Merriweather', serif;
 }
@@ -79,7 +78,6 @@ header a, a:visited, a:hover, a:active {
     height: 400px;
     width: 100%;
     overflow: hidden;
-    margin-bottom: 40px;
 }
 
 #hero-image {
@@ -89,11 +87,29 @@ header a, a:visited, a:hover, a:active {
     background-size: cover;
 }
 
-#intro a {
-    text-decoration: none;
+#intro-paragraph {
+    text-align: center;
 }
 
 /* Newsletter */
+
+#newsletter-div {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#newsletter-div h1 {
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+#newsletter-div p,
+#newsletter-div form {
+    padding: 1em;
+    text-align: center;
+    margin: auto;
+}
 
 #intro-heading {
     font-size: 40px;
@@ -105,20 +121,25 @@ header a, a:visited, a:hover, a:active {
 }
 
 #newsletter-signup label {
-    font-size: x-large;
-    font-weight: bold;
+    font-size: larger;
 }
 
-#newsletter-signup input[type=email] {
-    border: 1px solid #000;
-    height: 25px;
+#newsletter-signup input {
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: 0;
+    font-family: inherit;
+    font-size: x-large;
 }
 
 #newsletter-signup button {
     font-size: x-large;
     border-radius: 5px;
+    border: none;
     background-color: rgb(255, 193, 37);
-    padding: 5px;
+    padding: 10px;
+    margin: 0.5em;
 }
 
 #newsletter-signup button:hover {
@@ -142,17 +163,17 @@ header a, a:visited, a:hover, a:active {
 #google-maps-homepage {
     margin: 0; 
     padding: 0;
+    min-height: 25em;
+    border: none;
 }
 
 /* Flex box set up */
 .container {
     display: flex;
     flex-direction: column;
-    background-color:#D2D5DD;
 }
 
 .center-of-container {
-    background-color:#D2D5DD;
     width: 75vw;
     border-radius: 15px;
     align-self: center;
@@ -187,6 +208,10 @@ header a, a:visited, a:hover, a:active {
     color: inherit;
 }
 
+.newsletter-signup-banner {
+    background-color: #D2D5DD;
+}
+
 /* updates */
 
 .updates-article {
@@ -208,7 +233,6 @@ header a, a:visited, a:hover, a:active {
 
 .flex-item {
     display: flex;
-    background-color: #D2D5DD;
     padding: 5px;
     flex-direction: column;
     justify-content: center;
@@ -263,7 +287,10 @@ tr td:first-child {
 }
 
 /* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form */
-#contact-form input, #contact-form select, #contact-form textarea, #contact-form h2 {
+#contact-form input, 
+#contact-form select, 
+#contact-form textarea, 
+#contact-form h2 {
     width: 100%;
     padding: 9px;
     border: 1px solid #ccc;
@@ -277,7 +304,7 @@ tr td:first-child {
 /* Used to center and have on different rows: https://stackoverflow.com/questions/42753253/vertically-center-multiple-lines-of-flex-items */
 #footer-wrapper {
     width: 100%;
-    height: 85px;
+    height: 6em;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 193, 37);
     display: flex;
@@ -351,6 +378,12 @@ footer a, a:visited, a:hover, a:active {
     }
 }
 
+@media screen and (max-width: 1000px) {
+    #newsletter-signup span {
+        display: block;
+    }
+}
+
 @media screen and (min-width: 1000px) and (min-height: 750px){
     #contact-form {
         height: 77vh;
@@ -365,7 +398,7 @@ footer a, a:visited, a:hover, a:active {
     }
 
     header {
-        height: 8vh;
+        height: 6.5vh;
     }
 
     footer {
@@ -393,6 +426,12 @@ footer a, a:visited, a:hover, a:active {
     .main-info-right {
         width: fit-content;
     }
+
+    #newsletter-signup label{
+        padding-bottom: 1em;
+    }
+
+    #
 
 }
 

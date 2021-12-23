@@ -39,22 +39,22 @@
     </section>
     <section class="container">
         <article class="center-of-container">
-            <div class="container-for-section">
+            <div class="container-for-section" id="newsletter-div">
                 <!-- Content from: https://heritage.clareheritage.org/places/reading-your-local-landscape/killaloe-our-local-landscape/some-human-footprints-around-the-gap-of-ogonnelloe-ballyloughnane#:~:text=The%20name%20'Ogonnelloe'%20comes%20from,landlords%20of%20most%20of%20Ogonnelloe. -->
-                <div>
-                    <h1 id="intro-heading">Newsletter</h1>
-                    <p id="intro">We now have a GAA newsletter. Find out what's going on in club, when your matches are, and changes to training times direct to your inbox.</p>
-                </div>
+                <h1 id="intro-heading">Newsletter</h1>
+                <p id="intro-paragraph">We now have a GAA newsletter. Find out what's going on in club, when your matches are, and changes to training times direct to your inbox.</p>
+
+                <form id="newsletter-signup" action="" method="post">
+                    <label for="email">Sign up to our newsletter:</label>
+                    <span>
+                        <input type="email">
+                        <button type="submit">Sign Up</button>
+                    </span>
+                </form>
             </div>
         </article>
     </section>
-    <section>
-        <form id="newsletter-signup" action="" method="post">
-            <label for="email">Sign up to our newsletter:</label>
-            <input type="email">
-            <button type="submit">Sign Up</button>
-        </form>
-    </section>
+
     <section>
         <!-- From https://www.google.com/maps/place/Ballyhurly,+Ogonnelloe,+Co.+Clare/@52.8869502,-8.467739,15z/data=!3m1!4b1!4m5!3m4!1s0x485c9cf1b3f5c7cd:0xa00c7a997321990!8m2!3d52.886936!4d-8.4589791
         Also using this solution: https://stackoverflow.com/questions/22554575/how-to-remove-box-from-new-google-maps-embeds/37083353 -->
