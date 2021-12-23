@@ -176,6 +176,7 @@ a:active {
     font-size: 2rem;
     text-align: center;
     padding-bottom: 2rem;
+    margin: auto;
 }
 
 .main-info-left {
@@ -232,31 +233,22 @@ thead {
     margin: auto;
 }
 
+.training-times {
+    padding-bottom: 2rem;
+}
 
 .newsletter-div-clubs-page {
     background-color: #D2D5DD;
+    margin-bottom: 2rem;
 }
 
 /* updates */
 
-#news-page-heading {
-    font-size: 2.5em;
-    padding: 1em 0 0.5em 0;
-}
-
-.top-story {
-    margin: auto;
-}
-
 .news-img {
     height: 20em;
     margin: auto;
-}
-
-.news-article h2 {
-    font-size: 2em;
-    padding: 1em;
-    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .news-article {
@@ -264,32 +256,23 @@ thead {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin: auto;
-    padding: 1em 0;
 }
-
-.news-article p:first-of-type {
-    padding-top: 1em;
-}
-
-#first-news-item-heading {
-    padding: 0 0 0.5em 0;
-}
-
 
 #even-news-color {
     background-color: rgb(255, 193, 37);
 }
 
 .news-paragraph {
-    padding: 0.5em 2em 1em 3em;
-    justify-content: flex-start;
+    max-width: 65ch;
+    padding: 0 0 2rem 0;
+    text-align: justify;
+    margin: auto;
 }
 
 .video {
-    padding: 0 0 10px 0;
+    padding-bottom: 2rem;
     margin: 0;
-    height: 18em;
+    height: 18rem;
     width: 100%;
 }
 
