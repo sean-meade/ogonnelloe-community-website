@@ -326,8 +326,10 @@ thead {
     font-size: large;
     border-radius: 5px;
     background-color: rgb(255, 193, 37);
-    padding: 5px;
-    width: 100%;
+    padding: 10px;
+    margin: 0.5em 0 1em 0;
+    float: right;
+    border: none;
 }
 
 #contact-form button:hover {
@@ -347,7 +349,7 @@ thead {
 }
 
 #contact-form h2 {
-    padding: 9px;
+    padding: 1em 0;
 }
 
 /* Footer */
