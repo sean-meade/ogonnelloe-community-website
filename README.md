@@ -200,63 +200,56 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Appendix
 
-### Home Page Wireframe
+### Wireframes
+
+#### Home Page Wireframe
 
 Notes: I added a Google maps iframe just before the footer. This shows Ogonnelloe on the map. I chose to add this because it was useful and added to homepage. 
 
-![Homepage Wireframe](readme-imgs/homepage-wireframe.jpg "Homepage Wireframe")
+![Homepage Page Wireframe](readme-imgs/homepage-wireframe.jpg "Homepage Wireframe")
 
 [Back to Wireframe Section](#wireframes)
 
-### Training Page Wireframe
+#### Training Page Wireframe
 
 Notes: I changed the contact information to the right hand side as it looks better and on mobile the crest (on the left) is on top. The crest was also chosen instead of Google maps because it is already in the homepage.
 
-![Training Wireframe](readme-imgs/trainingpage-wireframe.jpg "Training Wireframe")
+![Training Page Wireframe](readme-imgs/trainingpage-wireframe.jpg "Training Wireframe")
 
 [Back to Wireframe Section](#wireframes)
 
-### News Page Wireframe
+#### News Page Wireframe
 
 Notes: A video banner was added to give more of an impression when first visiting the news page. I chose to have images on top of text because I thought it looked cleaner and fitted in more with the spacious flow of the site. Decided to just call it news and have one title rather then split it because it fitted in more with the spacious flow of the site.
 
-![News Wireframe](readme-imgs/newspage-wireframe.jpg "News Wireframe")
+![News Page Wireframe](readme-imgs/newspage-wireframe.jpg "News Wireframe")
 
 [Back to Wireframe Section](#wireframes)
 
-### Contact Page Wireframe
+#### Contact Page Wireframe
 
-![Contact Wireframe](readme-imgs/contactpage-wireframe.jpg "Contact Wireframe")
+![Contact Page Wireframe](readme-imgs/contactpage-wireframe.jpg "Contact Wireframe")
 
 [Back to Wireframe Section](#wireframes)
 
+## Validation
 
+#### Home Page Validation
 
-## User Experience
+![Home Page Valiation](readme-imgs/index-validation.png "Home Page Valiation")
 
-- ### Site Goals
-    - #### Site Owner/Community Goals
-        1. I want the site to be informative to both residents and visitors of Ogonnelloe to:
-            - Learn about the history of the area.
-            - What groups, clubs, and socities are in the area.
-            - When and where these groups meet up.
-            - Who to contact and how to reach them for each group.
-            - Sign up for the community newsletter.
+#### Training Page Validation
 
----
-- ### User Stories:
-    - ### First Time Visitor Goals
-        1. As a First Time Visitor, I want to easily and intutively navigate the site.
-        2. As a First Time Visitor, I want to easily find and use the relevant information for the group I'm interested in.
-        3. As a First Time Visitor, I want to learn about the history of the Ogonnelloe area.
-        4. As a First Time Visitor, I want to easily be able to request more information from the relevant source.
+![Training Page Valiation](readme-imgs/clubs-validation.png "Training Page Valiation")
 
-    - ### Returning Visitor Goals
-        1. As a returning visitor I want to see that information is easily accessible.
-        2. As a returning visitor I want to access the contact information for my group(s).
+#### News Page Validation
 
-    - ### Frequent Visitor Goals
-        1. As a frequent visitor I want to see that the content remains constant on any device I access it with.
-        2. As a frequent visitor I would like to be able to contact the different groups in the area.
-        3. Read any new articles relating to the history of the area.
+![News Page Valiation](readme-imgs/updates-validation.png "News Page Valiation")
 
+#### Contact Page Validation
+
+![Contact Page Valiation](readme-imgs/contact-validation.png "Contact Page Valiation")
+
+#### CSS Validation
+
+![CSS Valiation](readme-imgs/css-validation.png "CSS Page Valiation")
