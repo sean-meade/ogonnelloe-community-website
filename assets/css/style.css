@@ -92,12 +92,12 @@ a:active {
 #cover-text {
     display: flex;
     width: 70%;
+    height: fit-content;
     text-transform: uppercase;
     position: absolute;
     left: 15%;
     top: 10%;
     text-align: center;
-    
 }
 
 #cover-text h1 {
@@ -442,6 +442,12 @@ a:active {
     .heading-1-body,
     .heading-2-body {
         padding: 0.3em;
+    }
+
+    #cover-text {
+        width: 85%;
+        height: 40%;
+        left: 7.5%;
     }
 }
 
