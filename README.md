@@ -8,7 +8,6 @@ OgonnelloeGAA.com is a site that hopes to end the confusion for players. Growing
 
 This has been a common acurance. So OgonnelloeGAA.com is set to remove all doubts. It has an input field for email sign up for the newsletter, which contains the upcoming events. The Training page lays out the training times for the club for the different age groups. The news and events page lays out some of the top stories involving the club currently. Finally, there is a contact page to make it easy to request information from the club. Players are just going to have to find other things to argue over because all their questions will be answered!
 
-
 The orignal scope for this website was to be a community website. Due to content availability I have to pivot. So I have decided to focus on one corner stone of our community of Ogonnelloe; the Gaielge Athletic Association (GAA).
 
 ![An image taken from ami.responsivedesign.is of this website](readme-imgs/am-i-responsive-min.png "Image taken from ami.responsivedesign.is of this website")
@@ -135,20 +134,15 @@ Events page:
 Validator Testing
 HTML
 
-  -	No errors were returned when passing through the official [W3C validator]()
+  -	No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsean-meade.github.io%2Fogonnelloe-community-website%2Findex.html)
 
 CSS
 
-  -	No errors were found when passing through the official [(Jigsaw) validator]()
+  -	No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 
 Unfixed Bugs
 
--	You 
-
-# Testing User Stories from User Experience (UX) Section
-
-- First Time Visitor Goals
-  - As a First Time Visitor
+-	Heading on hero image compacting on small screens (currently hidden for small screens).
 
 # Deployent
 
@@ -196,7 +190,19 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
+I would like to thank Ogonnelloe GAA for the content and media for the site.
 
+I have referenced in comments throughout where I have used or been inspired by other peoples work.
+
+I would also like to give a huge thank you to my family for the patience and to my boss who has been so supportive!
+
+Finally I would like to thank my mentor for the support and encouragement. A nice passing comment on your code can mean more then you would think. Thanks!
+
+Here are a few references it would be criminal not to mention, as I have went back to them over and over throughout the making of this site:
+
+- For all my flexbox needs: [this article](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#:~:text=A%20flex%20container%20expands%20items,which%20is%20horizontally%2Dbased) saved me more then I can count.
+
+- For all my unit needs: [this video](https://www.youtube.com/watch?v=N5wpD9Ov_To) was invaluable Kevin Powell is a legend.
 
 ## Appendix
 
