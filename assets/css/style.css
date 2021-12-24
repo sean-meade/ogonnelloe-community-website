@@ -79,6 +79,7 @@ a:active {
     min-height: 28rem;
     max-width: 100%;
     overflow: hidden;
+    position: relative;
 }
 
 #hero-image {
@@ -86,6 +87,24 @@ a:active {
     max-width: 100%;
     background: url("../images/hero-min.png") no-repeat center;
     background-size: cover;
+}
+
+#cover-text {
+    display: flex;
+    width: 70%;
+    height: fit-content;
+    text-transform: uppercase;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+    text-align: center;
+    
+}
+
+#cover-text h1 {
+    font-size: 2rem;
+    font-family: Celtic;
+    margin: auto;
 }
 
 #intro-paragraph {
@@ -421,15 +440,15 @@ a:active {
     }
 }
 
-/* home page changes on mobile screens (436px) */
+/* home page changes on mobile screens (~450px) */
 
 @media screen and (max-width: 27.25em) {
 
     #menu {
         line-height: 3.125em;
-        letter-spacing: 0.2em;
+        letter-spacing: 0.15em;
         padding: 0;
-        font-size: 90%;
+        font-size: 87%;
     }
 
     #menu li {
