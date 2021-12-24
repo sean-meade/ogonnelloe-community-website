@@ -354,6 +354,20 @@ a:active {
 
 /* media queries - (px) = pixels of media uery with default font size of 16px */
 
+/* For iPad Pro */
+
+@media only screen and (min-width: 1024px) and (min-height: 1000px) {
+    .newsletter-div h1 {
+        padding: 2.7rem 0;
+    }
+
+    #newsletter-signup {
+        padding: 3.3rem 0;
+    }
+}
+
+/* for paragraph on news page (760px) */
+
 @media screen and (max-width: 47.5em) {
     .news-paragraph {
         width: 85%;
