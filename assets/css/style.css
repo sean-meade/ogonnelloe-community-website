@@ -85,7 +85,7 @@ a:active {
 #hero-image {
     min-height: 28rem;
     max-width: 100%;
-    background: url("../images/hero-min.png") no-repeat center;
+    background: url("../images/hero-min.webp") no-repeat center;
     background-size: cover;
 }
 

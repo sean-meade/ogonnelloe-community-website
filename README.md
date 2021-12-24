@@ -9,9 +9,9 @@ OgonnelloeGAA.com is a site that hopes to end the confusion for players. Growing
 This has been a common acurance. So OgonnelloeGAA.com is set to remove all doubts. It has an input field for email sign up for the newsletter, which contains the upcoming events. The Training page lays out the training times for the club for the different age groups. The news and events page lays out some of the top stories involving the club currently. Finally, there is a contact page to make it easy to request information from the club. Players are just going to have to find other things to argue over because all their questions will be answered!
 
 
-The orignal scope for this website was to be a community website. It turns out however that a community (even if you think it's small) is massive. So I have decided to focus on one corner stone of our community of Ogonnelloe; the Gaielge Athletic Association.
+The orignal scope for this website was to be a community website. Due to content availability I have to pivot. So I have decided to focus on one corner stone of our community of Ogonnelloe; the Gaielge Athletic Association (GAA).
 
-[picture of the website onmultiple devices]
+![An image taken from ami.responsivedesign.is of this website](readme-imgs/am-i-responsive-min.png "Image taken from ami.responsivedesign.is of this website")
 
 # User Experience (UX)
 
@@ -31,20 +31,28 @@ The orignal scope for this website was to be a community website. It turns out h
 	- As a Frequent User, I want to check to see my training times.
 	- As a Frequent User, I want to check to see this years accomplishments.
 	- As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+
 ## Design
+I want the design of the website to inform and empower the vistors to access useable information relating to Ogonnelloe GAA. I want to keep the design and navigation simple to ensure it is accessable for all ages. I want to make the site responsive in order for it to be accessable on a range of devices. I want to make this website a tool for people to use to get more involved in the GAA club of Ogonnlloe. 
+
 - ### Colour Scheme
-	- The two main colours of the Ogonnelloe flag black and amber.
+	- The primary and secondary colours I have chosen to use are black (`#FFC125`) and amber (`#000000`). These are the colours on the Ogonnelloe flag. These colours are very bold so I wanted to offset this with a light colour to highlight certain areas. This colour was light grey (`#D2D5DD`).
+  - The amber colour was found using the color selector on chrome dev tools. I used the selector to find the shade of each color that I felt complimented the site well and fitted with the bands look. ![Colour Pallette used in ths website](readme-imgs/colour-pallette.png "Colour Pallette used in ths website")
 - ### Typography
 	- The Celtic font from fontzip.com is used for the Logo. Patua One is used for all headings with Arial as a web safe backup font. Both fonts are very strong, supportive (to the rest of the content) and impactful which mirror the ethos of Ogonnellow GAA.For the body text the font Merriweather was chosen with serif as backup. Both being clean and precise as only Ogonnelloe can be!
 - ### Imagery
 	- The banner image is of very reckoniable hillside in Ogonnelloe. It is both familiar to residents of Ogonnelloe and welcoming to new potential members.
 
 ## Wireframes
-Home Page Wireframe - View
+Please find notes on changes in design in the appendix (follow the links below)
 
-Mobile Wireframe - View
+Home Page Wireframe - [View](#home-page-wireframe)
 
-Contact Us Page Wireframe - View
+Training Page Wireframe - [View](#training-page-wireframe)
+
+News Page Wireframe - [View](#news-page-wireframe)
+
+Contact Page Wireframe - [View](#contact-page-wireframe)
 
 # Features
 
@@ -98,15 +106,17 @@ Events page:
 
 ## Frameworks, Libraries & Programs Used
   1. Google Fonts:
-	  - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+	  - Google fonts were used to import the 'Merriweather' and 'Passion One' fonts into the style.css file which is used on all pages throughout the project.
   2. Font Awesome:
-	  - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-  3. Git
+	  - Font Awesome was used on home, training, contact pages to add icons for aesthetic and UX purposes.
+  3. Git:
 	  - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
   4. GitHub:
 	  - GitHub is used to store the projects code after being pushed from Git.
-  5. Balsamiq:
-	  - Balsamiq was used to create the wireframes during the design process.
+  5. fontzip.com:
+    - Fontzip was used to download and use the 'Celtic' font used on the logo.
+  6. Google Chrome Developer Tools:
+    - I have used Google chromes built in developer tools to help with the styling of the site and to help fix any bugs I found.
 
 # Testing
 
@@ -174,9 +184,39 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
-This is the community website for the village of Ogonnelloe. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for residents and vistors of Ogonnelloe.
 
---> insert image of site on multiple devices
+
+## Appendix
+
+### Home Page Wireframe
+
+Notes: I added a Google maps iframe just before the footer. This shows Ogonnelloe on the map. I chose to add this because it was useful and added to homepage. 
+
+![Homepage Wireframe](readme-imgs/homepage-wireframe.jpg "Homepage Wireframe")
+
+[Back to Wireframe Section](#wireframes)
+
+### Training Page Wireframe
+
+Notes: I changed the contact information to the right hand side as it looks better and on mobile the crest (on the left) is on top. The crest was also chosen instead of Google maps because it is already in the homepage.
+
+![Training Wireframe](readme-imgs/trainingpage-wireframe.jpg "Training Wireframe")
+
+[Back to Wireframe Section](#wireframes)
+
+### News Page Wireframe
+
+Notes: A video banner was added to give more of an impression when first visiting the news page. I chose to have images on top of text because I thought it looked cleaner and fitted in more with the spacious flow of the site. Decided to just call it news and have one title rather then split it because it fitted in more with the spacious flow of the site.
+
+![News Wireframe](readme-imgs/newspage-wireframe.jpg "News Wireframe")
+
+[Back to Wireframe Section](#wireframes)
+
+### Contact Page Wireframe
+
+![Contact Wireframe](readme-imgs/contactpage-wireframe.jpg "Contact Wireframe")
+
+[Back to Wireframe Section](#wireframes)
 
 
 
@@ -208,18 +248,3 @@ This is the community website for the village of Ogonnelloe. It is designed to b
         2. As a frequent visitor I would like to be able to contact the different groups in the area.
         3. Read any new articles relating to the history of the area.
 
-### Design
-
-I want the design of the website to inform and empower the vistors to access useable information relating to Ogonnelloe. I want to keep the design and navigation simple to ensure it is accessable to all ages. I want to make the site responsive in order for it to be accessable on a range of devices. I want to make this website a tool for people to use to get more involved in the community of Ogonnlloe. 
-
-  - #### Color scheme
-    - The primary and secondary colours I have chosen to use are black (`#FFC125`) and amber (`#000000`). These are the colours on the Ogonnelloe flag. These colours are very bold so I wanted to offset this with light colours to highlight certain areas. These colours were light grey (`#D2D5DD`), cadet (`#637074`), and ghost white (`#F7F7FF`).
-    - The amber colour was found using the color selector on chrome dev tools. I used the selector to find the shade of each color that I felt complimented the site well and fitted with the bands look.![alt text](assets/images/readme-imgs/colour-pallette.png)
-
-  * #### Typography
-     *  
-
-  * #### Imagery
-     *  
-
-  
