@@ -332,6 +332,11 @@ thead {
     margin-bottom: 16px;
 }
 
+.required {
+    color: red;
+    font-size: 80%;
+}
+
 /* Footer */
 
 /* Used to center and have on different rows: https://stackoverflow.com/questions/42753253/vertically-center-multiple-lines-of-flex-items */
