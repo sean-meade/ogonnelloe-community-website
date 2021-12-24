@@ -101,33 +101,45 @@ Events page:
 
 # Technologies Used
 ## Languages Used
-  - HTML5
-  - CSS3
+  - [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+  - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ## Frameworks, Libraries & Programs Used
-  1. Google Fonts:
+  1. [Google Fonts](https://fonts.google.com/):
 	  - Google fonts were used to import the 'Merriweather' and 'Passion One' fonts into the style.css file which is used on all pages throughout the project.
-  2. Font Awesome:
+  2. [Font Awesome](https://fontawesome.com/):
 	  - Font Awesome was used on home, training, contact pages to add icons for aesthetic and UX purposes.
-  3. Git:
+  3. [Git](https://git-scm.com/):
 	  - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
-  4. GitHub:
+  4. [GitHub](https://github.com/):
 	  - GitHub is used to store the projects code after being pushed from Git.
-  5. fontzip.com:
-    - Fontzip was used to download and use the 'Celtic' font used on the logo.
-  6. Google Chrome Developer Tools:
-    - I have used Google chromes built in developer tools to help with the styling of the site and to help fix any bugs I found.
+  5. [Font Zip]():
+	  - Fontzip was used to download and use the 'Celtic' font used on the logo.
+  6. [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/):
+	  - Google chromes built in developer tools were used to help with the styling of the site and to help fix any bugs found.
+  7. [Getbootstrap](https://getbootstrap.com/):
+	  - Google Chrome Developer Tools was used to get some styling suggestions for forms from the Getbootstrap website.
+  8. [LunaPic]():
+	  - LunaPic was used to edit images. This is resizing, cropping, and changing image type.
+  9. [CompressPNG]():
+	  - CompressPNG was used to compress in png images for loading faster..
+  10. [Am I Responsive Design]():
+	  - Am I responsive was used to crete the first image of the site on multiple devices.
+  11. [Online Convert](https://www.online-convert.com/):
+	  - Google Chrome Developer Tools was used to get some styling suggestions for forms from the Getbootstrap website.
+  12. [Google Lighthouse](https://developers.google.com/web/tools/lighthouse):
+	  - Google lighthouse was used to test the performance of my site.  
 
 # Testing
 
 Validator Testing
 HTML
 
--	No errors were returned when passing through the official W3C validator
+  -	No errors were returned when passing through the official [W3C validator]()
 
 CSS
 
--	No errors were found when passing through the official (Jigsaw) validator
+  -	No errors were found when passing through the official [(Jigsaw) validator]()
 
 Unfixed Bugs
 

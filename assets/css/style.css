@@ -100,7 +100,7 @@ a:active {
     text-align: center;
 }
 
-#cover-text h1 {
+#cover-text h2 {
     font-size: 2rem;
     font-family: Celtic;
     margin: auto;
@@ -423,12 +423,6 @@ a:active {
         display: block;
     }
 
-    #cover-text {
-        width: 85%;
-        height: 40%;
-        left: 7.5%;
-        font-family: 'Merriweather', serif;
-    }
 }
 
 /* Add padding to sign up input for when changing (560) */
@@ -453,6 +447,10 @@ a:active {
     .heading-1-body,
     .heading-2-body {
         padding: 0.3em;
+    }
+
+    #cover-text {
+        display: none;
     }
 }
 
