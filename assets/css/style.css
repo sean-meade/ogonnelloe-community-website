@@ -422,11 +422,22 @@ a:active {
     #newsletter-signup span {
         display: block;
     }
+
+    #cover-text {
+        width: 85%;
+        height: 40%;
+        left: 7.5%;
+        font-family: 'Merriweather', serif;
+    }
 }
 
 /* Add padding to sign up input for when changing (560) */
 
 @media screen and (max-width: 35em) {
+    #logo {
+        padding-top: 10px;
+    }
+
     #newsletter-signup input {
         margin: 0.375rem 0 0 0;
     }
@@ -442,12 +453,6 @@ a:active {
     .heading-1-body,
     .heading-2-body {
         padding: 0.3em;
-    }
-
-    #cover-text {
-        width: 85%;
-        height: 40%;
-        left: 7.5%;
     }
 }
 
