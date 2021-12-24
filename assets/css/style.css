@@ -92,7 +92,6 @@ a:active {
 #cover-text {
     display: flex;
     width: 70%;
-    height: fit-content;
     text-transform: uppercase;
     position: absolute;
     left: 15%;
@@ -396,6 +395,7 @@ a:active {
     .news-paragraph {
         width: 85%;
     }
+}
 
 /* home page changes on smaller width screens (712px) */
 
@@ -488,126 +488,3 @@ a:active {
         padding-bottom: 0;
     }
 }
-
-/* home page changes on mobile screens (416px) */
-
-/* @media screen and (max-width: 410px) {
-    #logo {
-        font-size: 55px;
-    }
-    
-    nav {
-        padding-left: 0;
-    }
-
-    #menu {
-        font-size: 70%;
-        padding-right: 0;
-        letter-spacing: 3px;
-    }
-
-    #menu, #logo {
-        line-height: 40px;
-        margin: 10px 0 0 0;
-    }
-
-}
-
-@media screen and (max-width: 492px) {
-    .main-info {
-        width: fit-content;
-        display: flex;
-
-    }
-
-    .video {
-        height: fit-content;
-        width: 90vw;
-    }
-}
-
-@media screen and (max-width: 400px) and (min-height: 800px) {
-    #contact-form {
-        height: 75vh;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    #newsletter-signup span {
-        display: block;
-    }
-}
-
-@media screen and (min-width: 1000px) and (min-height: 750px){
-    #contact-form {
-        height: 77vh;
-    }
-} */
-
-/* iPad Pro and similar */
-/* @media screen and (min-width: 1000px) and (min-height: 920px) {
-    #contact-form {
-        height: 81vh;
-        width: 50vw;
-    }
-
-    header {
-        height: 6.5vh;
-    }
-
-    footer {
-        height: 12vh;
-    }
-}    
-
-@media screen and (max-width: 688px) {
-    #menu {
-        line-height: 40px;
-    }
-
-    #hero-outer {
-        height: 300px;
-    }
-
-    #hero-image {
-        height: 300px;
-    }
-
-    .main-info-left {
-        width: fit-content;
-    }
-
-    .main-info-right {
-        width: fit-content;
-    }
-
-    #newsletter-signup label{
-        padding-bottom: 1em;
-    }
-
-} */
-
-  /* for tablet screen sizes */
-/* @media screen and (max-width: 768px) {
-    #contact-form {
-        width: 80%;
-    }
-
-    nav {
-        padding-left: 20px;
-    }
-
-    header {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .container-for-section {
-        flex-wrap: wrap;
-    }
-    
-} */
-
-
-/* For iPad Pro Portrait */
-/* https://stackoverflow.com/questions/41978487/what-is-correct-media-query-for-ipad-pro */
