@@ -251,7 +251,6 @@ Notes: A video banner was added to give more of an impression when first visitin
 #### News Page Validation
 
 ![News Page Valiation](readme-imgs/updates-validation.png "News Page Valiation")
-
 #### Contact Page Validation
 
 ![Contact Page Valiation](readme-imgs/contact-validation.png "Contact Page Valiation")
